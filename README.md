@@ -13,3 +13,5 @@ withdrawMoney() so user can money from the contract
 This contract is a rent paying system for property or anything. Rent is declared at the declaration. User can pay rent when ever he wants.
 this rent is stored in contract, owner can take the rent from contract any time he wants.
 
+# AddressBook.sol
+This contract maps the address to a name. This can be only done by the Deployer of the Contract(Owner). Anyone can search the address from the record mapping.
