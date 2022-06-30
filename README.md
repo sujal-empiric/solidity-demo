@@ -15,3 +15,9 @@ this rent is stored in contract, owner can take the rent from contract any time 
 
 # AddressBook.sol
 This contract maps the address to a name. This can be only done by the Deployer of the Contract(Owner). Anyone can search the address from the record mapping.
+
+# Charity.sol
+This contract is basically a payment splitter. It provide equal share of the received payment to the recipients. 
+People can send ether in two ways 
+1. Invoking the sendMoney function
+2. Sending ethers directly to the address of the contract.
