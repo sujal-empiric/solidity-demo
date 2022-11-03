@@ -1,14 +1,3 @@
-/**
- *Submitted for verification at BscScan.com on 2022-11-01
-*/
-
-/**
- *Submitted for verification at BscScan.com on 2022-10-18
-*/
-
-/**
- *Submitted for verification at BscScan.com on 2022-10-10
-*/
 
 //SPDX-License-Identifier: MIT
 
